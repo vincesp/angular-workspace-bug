@@ -1,0 +1,7 @@
+{
+  "name": "codespaces-blank",
+  "version": "1.0.0",
+  "workspaces": [
+    "my-font-css","angular-app"
+  ]
+}
