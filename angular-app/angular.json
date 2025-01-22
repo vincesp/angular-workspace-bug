@@ -59,6 +59,9 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "prebundle" : { "exclude": ["my-font-css"] } 
+          },
           "configurations": {
             "production": {
               "buildTarget": "angular-app:build:production"
